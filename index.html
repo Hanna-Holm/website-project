@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Café Kakan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#menu">Meny</a></li>
+                <li><a href="#about">Om</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cropped-hero-image">
+            <section class="welcome-text">
+                <h1 class="title">Café Kakan</h1>
+                <p>Lorem ipsum, dolor sit amet</p>
+            </section>
+        </div>
+        <section id="home">
+            <article class="article-home">
+                <h2>Hem</h2>
+                <p>Välkommen till Café Kakan. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consequatur, dolor sit deleniti temporibus accusamus ipsa.</p> 
+                <p>Quaerat aut inventore architecto maxime eaque asperiores fugit harum, ex quidem distinctio quas. Saepe.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta aperiam asperiores repudiandae? Quis ullam aspernatur, aut sed dignissimos veritatis repellat accusamus quasi numquam saepe iste sint voluptatibus corporis provident. A!</p>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga maiores atque consectetur ab repellat a velit adipisci? Recusandae commodi enim laborum dignissimos voluptatibus qui non dolore nulla explicabo animi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloribus suscipit, possimus nihil labore nesciunt aperiam ut quo atque, minima voluptatibus laboriosam, tempora voluptates officiis magni ea. Facere, ut qui!</p>
+            </article>
+            <img class="side-image" src="./images/nathan-dumlao.jpg" alt="Picture of coffee">
+        </section>
+        <p class="picture-description-right">Photo by Nathan Dumlao on Unsplash</p>
+        <section id="menu">
+            <article class="article-menu">
+                <h2>Meny</h2>
+                <p>Här kan du se vår fantastiska meny!</p>
+                <p>Vi har ett brett sortiment av varierat utbud av kakor, tårtor, bakelser, hembakat bröd och mycket mer!</p>
+                <p>Se PDF-fil nedan för fullständigt utbud</p>
+            </article>
+            <div class="pdf-container">
+                <object class="menu-pdf" 
+                        type="application/pdf" 
+                        data="./menu-cafe-kakan.pdf">
+                </object>
+            </div>
+        </section>
+        <section id="about">
+            <img class="side-image" src="./images/mike-marquez-unsplash.jpg" alt="Picture of coffee">
+            <article class="article-about">
+                <h2>Om oss</h2>
+                <p>Vi är Café Kakan</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus rem nostrum temporibus dolore, vero voluptas quisquam omnis modi deserunt qui pariatur eos eius architecto doloremque distinctio. Veritatis sit sequi eius!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum fugit atque ipsam est maiores. Sunt est dolorem pariatur nam temporibus, recusandae dolore repudiandae blanditiis repellat consequatur eum at inventore assumenda!</p>
+                <video controls>
+                    <source src="./cat-drinking-coffee.mp4" type="video/mp4" />
+                </video>
+            </article>
+        </section>
+        <p class="picture-description-left">Photo by Mike Marquez on Unsplash</p>
+        <section id="contact">
+            <article class="article-contact">
+                <h2>Kontakta oss</h2>
+                <ul class="contact-list">
+                    <li>Adress: Cafévägen 39</li>
+                    <li>123 45 Stockholm</li>
+                    <li>Tel: 08 123 45 67</li>
+                </ul>
+                <div class="contact-form-container">
+                    <p>Vi hör gärna från dig, kontakta oss via formuläret nedan:</p>
+                    <form class="contact-form" action="#home">
+                        <p>Din e-post: </p>
+                        <input type="email" placeholder="namn@example.com" required />
+                        <p>Ditt namn: </p>
+                        <input type="text" placeholder="Förnamn Efternamn" required />
+                        <p>Ditt ärende: </p>
+                        <textarea rows="5"></textarea>
+                        <button type="submit">Skicka</button>
+                    </form>
+                </div>
+            </article>
+            <img class="side-image" src="./images/nathan-dumlao-2-unsplash.jpg" alt="Picture of coffee">
+        </section>
+        <p class="picture-description-right">Photo by Nathan Dumlao on Unsplash</p>
+    </main>
+    <footer>
+        <p>Website made by Hanna Holm 2019</p>
+    </footer>
+</body>
+</html>
